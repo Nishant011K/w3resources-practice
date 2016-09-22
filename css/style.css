@@ -1,0 +1,58 @@
+/*my custom css file*/
+
+body {
+    font-family: "Inconsolata", monospace;
+    font-size: 24px;
+    color: #fff;
+    min-height: 540px;
+}
+
+a {
+    color: inherit;
+    height: 100%;
+    text-decoration: none;
+}
+
+ul {
+    background-color: green;
+}
+
+li {
+    padding: 12px;
+}
+
+.top-nav {
+    overflow: hidden;
+}
+
+.top-nav > li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.top-nav > li:first-child {
+    margin-left: 24px;
+}
+
+.top-nav > li > a {
+    text-transform: Uppercase;
+}
+
+.sub-nav {
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    margin-left: -12px;
+}
+
+.top-nav > li:hover > a {
+    color: yellow;
+}
+
+.top-nav > li:hover > ul.sub-nav {
+    display: block;
+}
+
+.sub-nav > li:hover a {
+    color: orange;
+}
